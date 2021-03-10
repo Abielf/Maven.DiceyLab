@@ -27,9 +27,11 @@ public class Dice {
     public Integer numRolledDie(){
         return dieRolls.size();
         }
+
     public Integer getTotal(){
         return dieTotal;
     }
+
     public void displayRolls(){
         System.out.println("Your rolled dice are:");
         for(Integer die:dieRolls){
